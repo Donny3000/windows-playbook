@@ -1,2 +1,8 @@
-[win]
-127.0.0.1  ansible_connection=ssh ansible_shell_type=cmd ansible_user=Vagrant ansible_password=vagrant
+[windows]
+laptop-rm-103.lan
+
+[windows:vars]
+ansible_user=admin
+ansible_password=@dmin123
+ansible_connection=winrm
+ansible_winrm_server_cert_validation=ignore
