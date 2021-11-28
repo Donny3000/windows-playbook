@@ -12,6 +12,10 @@
       tags: ["always"]
 
   tasks:
+    - import_tasks: tasks/wake_on_lan_windows.yml
+      when: wake_on_lan_win
+      tags: ["wol_win"]
+
     - import_tasks: tasks/updates.yml
       when: install_windows_updates
       tags: ["updates"]

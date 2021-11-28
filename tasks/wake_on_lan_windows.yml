@@ -1,0 +1,5 @@
+---
+- name: Send a magic Wake-on-LAN packet to a configured system/device
+  community.windows.win_wakeonlan:
+    mac: "{{ mac_addr }}"
+    
