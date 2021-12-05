@@ -1,8 +1,13 @@
 [windows]
+laptop-rm-101.lan
+laptop-rm-102.lan
 laptop-rm-103.lan
+laptop-rm-104.lan
+laptop-rm-108.lan
+laptop-rm-109.lan
 
 [windows:vars]
-ansible_user=admin
+ansible_user=Admin
 ansible_password=@dmin123
 ansible_connection=winrm
 ansible_winrm_server_cert_validation=ignore
